@@ -62,7 +62,7 @@ router.get("/", authenticateToken,checkRoleAdmin,(req:CustomRequest, res: Respon
      // });
     } catch (err) {return res.status(500).json({
       success: false,
-      message: "Something went wrong idiot",
+      message: "Something went wrong",
     });}
     
    
